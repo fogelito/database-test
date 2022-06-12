@@ -107,7 +107,7 @@ App::error(function (Exception $error, $request, $response) {
 
 App::setMode(App::MODE_TYPE_PRODUCTION); // Define Mode
 
-$dbHost = 'mysql';
+            $dbHost = 'mysql';
 $dbPort = '3306';
 $dbUser = 'root';
 $dbPass = 'password';

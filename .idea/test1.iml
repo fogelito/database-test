@@ -2,16 +2,16 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/framework" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/cli" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/database" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/config" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/jean85/pretty-package-versions" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/mongodb/mongodb" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/registry" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/cli" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jean85/pretty-package-versions" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mongodb/mongodb" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/utopia-php/database" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
