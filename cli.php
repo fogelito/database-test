@@ -19,7 +19,7 @@ $register->set('db', function () {
     $dbUser = 'root';
     $dbPass = 'password';
 
-    $pdo = new PDO("mysql:host={$dbHost};port={$dbPort};charset=utf8mb4", $dbUser, $dbPass, [
+    return new PDO("mysql:host={$dbHost};port={$dbPort};charset=utf8mb4", $dbUser, $dbPass, [
         PDO::ATTR_TIMEOUT => 3, // Seconds
         PDO::ATTR_PERSISTENT => true,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -27,8 +27,6 @@ $register->set('db', function () {
         PDO::ATTR_EMULATE_PREPARES => true,
         PDO::ATTR_STRINGIFY_FETCHES => true
     ]);
-
-    return $pdo;
 
 });
 
@@ -93,7 +91,7 @@ $cli
 
             var_dump($doc);
 
-        }, 0.0001 );
+        }, 0.0000 );
 
     });
 
